@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<title>Buscar Barreras</title>
-		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
 	</head>
 	<body>
 		<h1>Busca Barreras:</h1>
