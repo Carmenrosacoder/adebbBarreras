@@ -1,1 +1,2 @@
-# BuscadorBarreras
+
+Contendrá un buscador de barreras
