@@ -28,4 +28,3 @@ script:
 notifications:
   email: false
   
-encoding: UTF-8

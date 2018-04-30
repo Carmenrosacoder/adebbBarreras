@@ -1,0 +1,38 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    text-transform: uppercase;
+    color: #0a3698;
+    font-weight: bold;
+}
+#txtBuscador{
+    width: 99%;
+    padding: 13px 5px;
+    color: black;
+    border-radius: 7px;
+    background-color: #e6e6e67d;
+    border: 1px solid rgb(89, 121, 142);
+}
+#dvFiltrosCombo{
+    padding: 10px 0px;
+}
+#dvFiltrosCombo select{
+    padding:5px;
+    border-radius: 7px;
+    background-color: #e6e6e67d;
+    width: 200px;
+    display: block;
+    border:1px solid rgb(89, 121, 142);
+    
+}
+#dvFiltrosCombo select#cboAnio{
+    width: 120px;
+    
+}
+#dvFiltrosCombo label{
+    color:#0a3698;
+}
+#dvFiltrosCombo .filtro{
+    display: inline-block;
+} 

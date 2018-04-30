@@ -4,6 +4,8 @@
 	<head>
 		<title>Buscar Barreras</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+		<link href="Documentos\Css\main.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	</head>
 	<body>
 		<h1>Busca Barreras:</h1>
@@ -11,14 +13,23 @@
 			<input type="text" id="txtBuscador" placeholder="Escribe aquí lo que estas buscando..." />
 		</div>
 		<div id="dvFiltrosCombo">
-			<label>Año:</label>
-			<select id="cboAnio"></select>
-			<label>Mes:</label>
-			<select id="cboMes"></select>
-			<label>Sector:</label>
-			<select id="cboSector"></select>
-			<label>Entidad:</label>
-			<select id="cboEntidad"></select>
+			<div class="filtro">
+				<label>Año:</label>
+				<select id="cboAnio"></select>				
+			</div>
+			<div class="filtro">
+				<label>Mes:</label>
+				<select id="cboMes"></select>				
+			</div>
+			<div class="filtro">
+				<label>Sector:</label>
+				<select id="cboSector"></select>				
+			</div>
+			<div class="filtro">
+				<label>Entidad:</label>
+				<select id="cboEntidad"></select>				
+			</div>
+
 		</div>
 		<div id="dvBloquePHP">
 			<?php
